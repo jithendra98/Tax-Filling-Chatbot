@@ -161,11 +161,11 @@
             <h1>TaxWizard: Your Smart Filing Companion</h1>
         </div>
         <div class="chat-body" id="chat-body">
-            {% for msg in chat_history %}
+<!--             {% for msg in chat_history %} --><br>
             <div class="{{ 'bot-message' if msg.sender == 'bot' else 'user-message' }} message">
-                {{ msg.text|safe }}
+<!--                 {{ msg.text|safe }} -->
             </div>
-            {% endfor %}
+<!--             {% endfor %} --><br>
         </div>
         <div class="chat-form">
             <form id="chat-form">
